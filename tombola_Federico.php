@@ -13,7 +13,7 @@ function candidato() {
 	$decina = rand(0, 8); 
 	$unità = rand(0, 9);
 	if ($unità == 0) {
-		$valore = ($decina + 1)*$unità;
+		$valore = ($decina + 1)*10;
 	}
 	else {
 		$valore = $decina*10 + $unità;
